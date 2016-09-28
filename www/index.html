@@ -1,0 +1,251 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+Author: Ramon Domingos
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Identificação de Problemas e Manutenção de Máquinas | Home :: </title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-select.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Resale Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
+
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link href="css/jquery.uls.css" rel="stylesheet"/>
+<link href="css/jquery.uls.grid.css" rel="stylesheet"/>
+<link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
+<!-- Source -->
+<script src="js/jquery.uls.data.js"></script>
+<script src="js/jquery.uls.data.utils.js"></script>
+<script src="js/jquery.uls.lcd.js"></script>
+<script src="js/jquery.uls.languagefilter.js"></script>
+<script src="js/jquery.uls.regionfilter.js"></script>
+<script src="js/jquery.uls.core.js"></script>
+<script>
+			$( document ).ready( function() {
+				$( '.uls-trigger' ).uls( {
+					onSelect : function( language ) {
+						var languageName = $.uls.data.getAutonym( language );
+						$( '.uls-trigger' ).text( languageName );
+					},
+					quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr'] //FIXME
+				} );
+			} );
+		</script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><span>Pocket </span>Support</a>
+			</div>
+			<div class="header-right">
+
+	<!-- Large modal -->
+
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+					aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+										&times;</button>
+									<h4 class="modal-title" id="myModalLabel">
+										Please Choose Your Location</h4>
+								</div>
+								<div class="modal-body">
+
+								</div>
+							</div>
+						</div>
+					</div>
+				<script>
+				$('#myModal').modal('');
+				</script>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="main-banner banner text-center">
+	  <div class="container">
+			<h1>Identifique o problema,   <span class="segment-heading">    de acordo com as opções a seguir: </span> </h1>
+			<p>Em Seguida, indicaremos possíveis problemas e  soluções!</p>
+      <a href="mobileapp.html">About application</a>
+	  </div>
+	</div>
+		<!-- content-starts-here -->
+		<div class="content">
+			<div class="categories">
+				<div class="container">
+					<div class="col-md-2 focus-grid">
+						<a href="tuto.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+								<!--	<div class="focus-image"><i class="fa fa-mobile"></i></div>-->
+                 <img src="images/power.png" height="75" width="70">
+									<h4 class="clrchg">Computador não liga e não emite beeps</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+								<!--	<div class="focus-image"><i class="fa fa-laptop"></i></div>-->
+                <img src="images/beps.png" height="75" width="70">
+
+									<h4 class="clrchg"> Beps ao iniciar</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="semimagem.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<!--<div class="focus-image"><i class="fa fa-car"></i></div>-->
+                  <img src="images/monitor.png" height="75" width="70">
+
+									<h4 class="clrchg">Sem Imagem</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+								<!--	<div class="focus-image"><i class="fa fa-motorcycle"></i></div>-->
+                <img src="images/teclado.png" height="75" width="70">
+
+									<h4 class="clrchg">Não digita</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-wheelchair"></i></div>
+									<h4 class="clrchg">Mouse Não funciona</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-paw"></i></div>
+									<h4 class="clrchg">Números nao funcionam</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-book"></i></div>
+									<h4 class="clrchg">Sem áudio</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-asterisk"></i></div>
+									<h4 class="clrchg">Erro na Impressao</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-gamepad"></i></div>
+									<h4 class="clrchg">Sem internet</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-shield"></i></div>
+									<h4 class="clrchg">Services</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-at"></i></div>
+									<h4 class="clrchg">Jobs</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="privacy.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-home"></i></div>
+									<h4 class="clrchg">Real Estate</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+
+
+</body>
+</html>
